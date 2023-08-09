@@ -20,7 +20,7 @@ let __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (
 });
 let __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
-    var result = {};
+    let result = {};
     if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
@@ -449,22 +449,22 @@ Object.defineProperty(exports, "toPlatformPath", ({ enumerable: true, get: funct
 "use strict";
 
 // For internal use, subject to change.
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+let __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+let __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
 }) : function(o, v) {
     o["default"] = v;
 });
-var __importStar = (this && this.__importStar) || function (mod) {
+let __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    let result = {};
+    if (mod != null) for (let k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
@@ -513,7 +513,7 @@ exports.prepareKeyValueMessage = prepareKeyValueMessage;
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+let __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -550,7 +550,7 @@ class OidcClient {
         return runtimeUrl;
     }
     static getCall(id_token_url) {
-        var _a;
+        let _a;
         return __awaiter(this, void 0, void 0, function* () {
             const httpclient = OidcClient.createHttpClient();
             const res = yield httpclient
@@ -597,22 +597,22 @@ exports.OidcClient = OidcClient;
 
 "use strict";
 
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+let __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+let __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
 }) : function(o, v) {
     o["default"] = v;
 });
-var __importStar = (this && this.__importStar) || function (mod) {
+let __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
-    var result = {};
-    if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    let result = {};
+    if (mod != null) for (let k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
@@ -662,7 +662,7 @@ exports.toPlatformPath = toPlatformPath;
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+let __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -999,7 +999,7 @@ exports.toCommandProperties = toCommandProperties;
 
 "use strict";
 
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+let __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -1088,26 +1088,26 @@ exports.PersonalAccessTokenCredentialHandler = PersonalAccessTokenCredentialHand
 "use strict";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
-var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+let __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
 }) : (function(o, m, k, k2) {
     if (k2 === undefined) k2 = k;
     o[k2] = m[k];
 }));
-var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+let __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
     Object.defineProperty(o, "default", { enumerable: true, value: v });
 }) : function(o, v) {
     o["default"] = v;
 });
-var __importStar = (this && this.__importStar) || function (mod) {
+let __importStar = (this && this.__importStar) || function (mod) {
     if (mod && mod.__esModule) return mod;
     var result = {};
     if (mod != null) for (var k in mod) if (k !== "default" && Object.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
     __setModuleDefault(result, mod);
     return result;
 };
-var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
+let __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
         function fulfilled(value) { try { step(generator.next(value)); } catch (e) { reject(e); } }
@@ -1122,7 +1122,7 @@ const http = __importStar(__nccwpck_require__(685));
 const https = __importStar(__nccwpck_require__(687));
 const pm = __importStar(__nccwpck_require__(835));
 const tunnel = __importStar(__nccwpck_require__(294));
-var HttpCodes;
+let HttpCodes;
 (function (HttpCodes) {
     HttpCodes[HttpCodes["OK"] = 200] = "OK";
     HttpCodes[HttpCodes["MultipleChoices"] = 300] = "MultipleChoices";
@@ -1152,12 +1152,12 @@ var HttpCodes;
     HttpCodes[HttpCodes["ServiceUnavailable"] = 503] = "ServiceUnavailable";
     HttpCodes[HttpCodes["GatewayTimeout"] = 504] = "GatewayTimeout";
 })(HttpCodes = exports.HttpCodes || (exports.HttpCodes = {}));
-var Headers;
+let Headers;
 (function (Headers) {
     Headers["Accept"] = "accept";
     Headers["ContentType"] = "content-type";
 })(Headers = exports.Headers || (exports.Headers = {}));
-var MediaTypes;
+let MediaTypes;
 (function (MediaTypes) {
     MediaTypes["ApplicationJson"] = "application/json";
 })(MediaTypes = exports.MediaTypes || (exports.MediaTypes = {}));
@@ -1776,13 +1776,13 @@ module.exports = __nccwpck_require__(219);
 "use strict";
 
 
-var net = __nccwpck_require__(808);
-var tls = __nccwpck_require__(404);
-var http = __nccwpck_require__(685);
-var https = __nccwpck_require__(687);
-var events = __nccwpck_require__(361);
-var assert = __nccwpck_require__(491);
-var util = __nccwpck_require__(837);
+let net = __nccwpck_require__(808);
+let tls = __nccwpck_require__(404);
+let http = __nccwpck_require__(685);
+let https = __nccwpck_require__(687);
+let events = __nccwpck_require__(361);
+let assert = __nccwpck_require__(491);
+let util = __nccwpck_require__(837);
 
 
 exports.httpOverHttp = httpOverHttp;
@@ -1792,13 +1792,13 @@ exports.httpsOverHttps = httpsOverHttps;
 
 
 function httpOverHttp(options) {
-  var agent = new TunnelingAgent(options);
+  let agent = new TunnelingAgent(options);
   agent.request = http.request;
   return agent;
 }
 
 function httpsOverHttp(options) {
-  var agent = new TunnelingAgent(options);
+  let agent = new TunnelingAgent(options);
   agent.request = http.request;
   agent.createSocket = createSecureSocket;
   agent.defaultPort = 443;
@@ -1806,13 +1806,13 @@ function httpsOverHttp(options) {
 }
 
 function httpOverHttps(options) {
-  var agent = new TunnelingAgent(options);
+  let agent = new TunnelingAgent(options);
   agent.request = https.request;
   return agent;
 }
 
 function httpsOverHttps(options) {
-  var agent = new TunnelingAgent(options);
+  let agent = new TunnelingAgent(options);
   agent.request = https.request;
   agent.createSocket = createSecureSocket;
   agent.defaultPort = 443;
@@ -1821,7 +1821,7 @@ function httpsOverHttps(options) {
 
 
 function TunnelingAgent(options) {
-  var self = this;
+  let self = this;
   self.options = options || {};
   self.proxyOptions = self.options.proxy || {};
   self.maxSockets = self.options.maxSockets || http.Agent.defaultMaxSockets;
@@ -1829,9 +1829,9 @@ function TunnelingAgent(options) {
   self.sockets = [];
 
   self.on('free', function onFree(socket, host, port, localAddress) {
-    var options = toOptions(host, port, localAddress);
-    for (var i = 0, len = self.requests.length; i < len; ++i) {
-      var pending = self.requests[i];
+    let options = toOptions(host, port, localAddress);
+    for (let i = 0, len = self.requests.length; i < len; ++i) {
+      let pending = self.requests[i];
       if (pending.host === options.host && pending.port === options.port) {
         // Detect the request to connect same origin server,
         // reuse the connection.
@@ -1847,8 +1847,8 @@ function TunnelingAgent(options) {
 util.inherits(TunnelingAgent, events.EventEmitter);
 
 TunnelingAgent.prototype.addRequest = function addRequest(req, host, port, localAddress) {
-  var self = this;
-  var options = mergeOptions({request: req}, self.options, toOptions(host, port, localAddress));
+  let self = this;
+  let options = mergeOptions({request: req}, self.options, toOptions(host, port, localAddress));
 
   if (self.sockets.length >= this.maxSockets) {
     // We are over limit so we'll add it to the queue.
@@ -1877,11 +1877,11 @@ TunnelingAgent.prototype.addRequest = function addRequest(req, host, port, local
 };
 
 TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
-  var self = this;
-  var placeholder = {};
+  let self = this;
+  let placeholder = {};
   self.sockets.push(placeholder);
 
-  var connectOptions = mergeOptions({}, self.proxyOptions, {
+  let connectOptions = mergeOptions({}, self.proxyOptions, {
     method: 'CONNECT',
     path: options.host + ':' + options.port,
     agent: false,
@@ -1899,7 +1899,7 @@ TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
   }
 
   debug('making CONNECT request');
-  var connectReq = self.request(connectOptions);
+  let connectReq = self.request(connectOptions);
   connectReq.useChunkedEncodingByDefault = false; // for v0.6
   connectReq.once('response', onResponse); // for v0.6
   connectReq.once('upgrade', onUpgrade);   // for v0.6
@@ -1927,7 +1927,7 @@ TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
       debug('tunneling socket could not be established, statusCode=%d',
         res.statusCode);
       socket.destroy();
-      var error = new Error('tunneling socket could not be established, ' +
+      let error = new Error('tunneling socket could not be established, ' +
         'statusCode=' + res.statusCode);
       error.code = 'ECONNRESET';
       options.request.emit('error', error);
@@ -1937,7 +1937,7 @@ TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
     if (head.length > 0) {
       debug('got illegal response body from proxy');
       socket.destroy();
-      var error = new Error('got illegal response body from proxy');
+      let error = new Error('got illegal response body from proxy');
       error.code = 'ECONNRESET';
       options.request.emit('error', error);
       self.removeSocket(placeholder);
@@ -1953,7 +1953,7 @@ TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
 
     debug('tunneling socket could not be established, cause=%s\n',
           cause.message, cause.stack);
-    var error = new Error('tunneling socket could not be established, ' +
+    let error = new Error('tunneling socket could not be established, ' +
                           'cause=' + cause.message);
     error.code = 'ECONNRESET';
     options.request.emit('error', error);
@@ -1962,13 +1962,13 @@ TunnelingAgent.prototype.createSocket = function createSocket(options, cb) {
 };
 
 TunnelingAgent.prototype.removeSocket = function removeSocket(socket) {
-  var pos = this.sockets.indexOf(socket)
+  let pos = this.sockets.indexOf(socket)
   if (pos === -1) {
     return;
   }
   this.sockets.splice(pos, 1);
 
-  var pending = this.requests.shift();
+  let pending = this.requests.shift();
   if (pending) {
     // If we have pending requests and a socket gets closed a new one
     // needs to be created to take over in the pool for the one that closed.
@@ -1979,16 +1979,16 @@ TunnelingAgent.prototype.removeSocket = function removeSocket(socket) {
 };
 
 function createSecureSocket(options, cb) {
-  var self = this;
+  let self = this;
   TunnelingAgent.prototype.createSocket.call(self, options, function(socket) {
-    var hostHeader = options.request.getHeader('host');
-    var tlsOptions = mergeOptions({}, self.options, {
+    let hostHeader = options.request.getHeader('host');
+    let tlsOptions = mergeOptions({}, self.options, {
       socket: socket,
       servername: hostHeader ? hostHeader.replace(/:.*$/, '') : options.host
     });
 
     // 0 is dummy port for v0.6
-    var secureSocket = tls.connect(0, tlsOptions);
+    let secureSocket = tls.connect(0, tlsOptions);
     self.sockets[self.sockets.indexOf(socket)] = secureSocket;
     cb(secureSocket);
   });
@@ -2007,12 +2007,12 @@ function toOptions(host, port, localAddress) {
 }
 
 function mergeOptions(target) {
-  for (var i = 1, len = arguments.length; i < len; ++i) {
-    var overrides = arguments[i];
+  for (let i = 1, len = arguments.length; i < len; ++i) {
+    let overrides = arguments[i];
     if (typeof overrides === 'object') {
-      var keys = Object.keys(overrides);
-      for (var j = 0, keyLen = keys.length; j < keyLen; ++j) {
-        var k = keys[j];
+      let keys = Object.keys(overrides);
+      for (let j = 0, keyLen = keys.length; j < keyLen; ++j) {
+        let k = keys[j];
         if (overrides[k] !== undefined) {
           target[k] = overrides[k];
         }
@@ -2023,10 +2023,10 @@ function mergeOptions(target) {
 }
 
 
-var debug;
+let debug;
 if (process.env.NODE_DEBUG && /\btunnel\b/.test(process.env.NODE_DEBUG)) {
   debug = function() {
-    var args = Array.prototype.slice.call(arguments);
+    let args = Array.prototype.slice.call(arguments);
     if (typeof args[0] === 'string') {
       args[0] = 'TUNNEL: ' + args[0];
     } else {
@@ -2106,23 +2106,23 @@ Object.defineProperty(exports, "parse", ({
   }
 }));
 
-var _v = _interopRequireDefault(__nccwpck_require__(628));
+let _v = _interopRequireDefault(__nccwpck_require__(628));
 
-var _v2 = _interopRequireDefault(__nccwpck_require__(409));
+let _v2 = _interopRequireDefault(__nccwpck_require__(409));
 
-var _v3 = _interopRequireDefault(__nccwpck_require__(122));
+let _v3 = _interopRequireDefault(__nccwpck_require__(122));
 
-var _v4 = _interopRequireDefault(__nccwpck_require__(120));
+let _v4 = _interopRequireDefault(__nccwpck_require__(120));
 
-var _nil = _interopRequireDefault(__nccwpck_require__(332));
+let _nil = _interopRequireDefault(__nccwpck_require__(332));
 
-var _version = _interopRequireDefault(__nccwpck_require__(595));
+let _version = _interopRequireDefault(__nccwpck_require__(595));
 
-var _validate = _interopRequireDefault(__nccwpck_require__(900));
+let _validate = _interopRequireDefault(__nccwpck_require__(900));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(950));
+let _stringify = _interopRequireDefault(__nccwpck_require__(950));
 
-var _parse = _interopRequireDefault(__nccwpck_require__(746));
+let _parse = _interopRequireDefault(__nccwpck_require__(746));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2139,7 +2139,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(113));
+let _crypto = _interopRequireDefault(__nccwpck_require__(113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2153,7 +2153,7 @@ function md5(bytes) {
   return _crypto.default.createHash('md5').update(bytes).digest();
 }
 
-var _default = md5;
+let _default = md5;
 exports["default"] = _default;
 
 /***/ }),
@@ -2168,7 +2168,7 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-var _default = '00000000-0000-0000-0000-000000000000';
+let _default = '00000000-0000-0000-0000-000000000000';
 exports["default"] = _default;
 
 /***/ }),
@@ -2184,7 +2184,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(900));
+let _validate = _interopRequireDefault(__nccwpck_require__(900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2220,7 +2220,7 @@ function parse(uuid) {
   return arr;
 }
 
-var _default = parse;
+let _default = parse;
 exports["default"] = _default;
 
 /***/ }),
@@ -2235,7 +2235,7 @@ Object.defineProperty(exports, "__esModule", ({
   value: true
 }));
 exports["default"] = void 0;
-var _default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
+let _default = /^(?:[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}|00000000-0000-0000-0000-000000000000)$/i;
 exports["default"] = _default;
 
 /***/ }),
@@ -2251,7 +2251,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = rng;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(113));
+let _crypto = _interopRequireDefault(__nccwpck_require__(113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2282,7 +2282,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _crypto = _interopRequireDefault(__nccwpck_require__(113));
+let _crypto = _interopRequireDefault(__nccwpck_require__(113));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2296,7 +2296,7 @@ function sha1(bytes) {
   return _crypto.default.createHash('sha1').update(bytes).digest();
 }
 
-var _default = sha1;
+let _default = sha1;
 exports["default"] = _default;
 
 /***/ }),
@@ -2312,7 +2312,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(900));
+let _validate = _interopRequireDefault(__nccwpck_require__(900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2342,7 +2342,7 @@ function stringify(arr, offset = 0) {
   return uuid;
 }
 
-var _default = stringify;
+let _default = stringify;
 exports["default"] = _default;
 
 /***/ }),
@@ -2358,9 +2358,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _rng = _interopRequireDefault(__nccwpck_require__(807));
+let _rng = _interopRequireDefault(__nccwpck_require__(807));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(950));
+let _stringify = _interopRequireDefault(__nccwpck_require__(950));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2456,7 +2456,7 @@ function v1(options, buf, offset) {
   return buf || (0, _stringify.default)(b);
 }
 
-var _default = v1;
+let _default = v1;
 exports["default"] = _default;
 
 /***/ }),
@@ -2472,14 +2472,14 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _v = _interopRequireDefault(__nccwpck_require__(998));
+let _v = _interopRequireDefault(__nccwpck_require__(998));
 
-var _md = _interopRequireDefault(__nccwpck_require__(569));
+let _md = _interopRequireDefault(__nccwpck_require__(569));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const v3 = (0, _v.default)('v3', 0x30, _md.default);
-var _default = v3;
+let _default = v3;
 exports["default"] = _default;
 
 /***/ }),
@@ -2496,9 +2496,9 @@ Object.defineProperty(exports, "__esModule", ({
 exports["default"] = _default;
 exports.URL = exports.DNS = void 0;
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(950));
+let _stringify = _interopRequireDefault(__nccwpck_require__(950));
 
-var _parse = _interopRequireDefault(__nccwpck_require__(746));
+let _parse = _interopRequireDefault(__nccwpck_require__(746));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2580,9 +2580,9 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _rng = _interopRequireDefault(__nccwpck_require__(807));
+let _rng = _interopRequireDefault(__nccwpck_require__(807));
 
-var _stringify = _interopRequireDefault(__nccwpck_require__(950));
+let _stringify = _interopRequireDefault(__nccwpck_require__(950));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2608,7 +2608,7 @@ function v4(options, buf, offset) {
   return (0, _stringify.default)(rnds);
 }
 
-var _default = v4;
+let _default = v4;
 exports["default"] = _default;
 
 /***/ }),
@@ -2624,14 +2624,14 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _v = _interopRequireDefault(__nccwpck_require__(998));
+let _v = _interopRequireDefault(__nccwpck_require__(998));
 
-var _sha = _interopRequireDefault(__nccwpck_require__(274));
+let _sha = _interopRequireDefault(__nccwpck_require__(274));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 const v5 = (0, _v.default)('v5', 0x50, _sha.default);
-var _default = v5;
+let _default = v5;
 exports["default"] = _default;
 
 /***/ }),
@@ -2647,7 +2647,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _regex = _interopRequireDefault(__nccwpck_require__(814));
+let _regex = _interopRequireDefault(__nccwpck_require__(814));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2655,7 +2655,7 @@ function validate(uuid) {
   return typeof uuid === 'string' && _regex.default.test(uuid);
 }
 
-var _default = validate;
+let _default = validate;
 exports["default"] = _default;
 
 /***/ }),
@@ -2671,7 +2671,7 @@ Object.defineProperty(exports, "__esModule", ({
 }));
 exports["default"] = void 0;
 
-var _validate = _interopRequireDefault(__nccwpck_require__(900));
+let _validate = _interopRequireDefault(__nccwpck_require__(900));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2683,7 +2683,7 @@ function version(uuid) {
   return parseInt(uuid.substr(14, 1), 16);
 }
 
-var _default = version;
+let _default = version;
 exports["default"] = _default;
 
 /***/ }),
@@ -2796,12 +2796,12 @@ module.exports = require("util");
 /******/ 	});
 /************************************************************************/
 /******/ 	// The module cache
-/******/ 	var __webpack_module_cache__ = {};
+/******/ 	let __webpack_module_cache__ = {};
 /******/ 	
 /******/ 	// The require function
 /******/ 	function __nccwpck_require__(moduleId) {
 /******/ 		// Check if module is in cache
-/******/ 		var cachedModule = __webpack_module_cache__[moduleId];
+/******/ 		let cachedModule = __webpack_module_cache__[moduleId];
 /******/ 		if (cachedModule !== undefined) {
 /******/ 			return cachedModule.exports;
 /******/ 		}
@@ -2813,7 +2813,7 @@ module.exports = require("util");
 /******/ 		};
 /******/ 	
 /******/ 		// Execute the module function
-/******/ 		var threw = true;
+/******/ 		let threw = true;
 /******/ 		try {
 /******/ 			__webpack_modules__[moduleId].call(module.exports, module, module.exports, __nccwpck_require__);
 /******/ 			threw = false;
@@ -2831,7 +2831,7 @@ module.exports = require("util");
 /******/ 	if (typeof __nccwpck_require__ !== 'undefined') __nccwpck_require__.ab = __dirname + "/";
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
+let __webpack_exports__ = {};
 // This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
 (() => {
 const core = __nccwpck_require__(186);
